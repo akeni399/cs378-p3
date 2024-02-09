@@ -1,16 +1,16 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MenuItem from './components/MenuItem';
-import Logo from './images/cookemlogo.png';
-import Slogan from './images/slogan.png';
-
+import Logo from './components/Logo';
+import Slogan from './components/Slogan';
+import Tagline from './components/Tagline';
 
 // Menu data. An array of objects where each object represents a menu item. Each menu item has an id, title, description, image name, and price.
 // You can use the image name to get the image from the images folder.
 const menuItems = [
   {
     id: 1,
-    title: 'tryinh',
+    title: 'Gyoza',
     description: 'Japanese dumplings',
     imageName: 'gyoza.png',
     price: 5.99,
@@ -84,15 +84,9 @@ const menuItems = [
 function App() {
   return (
     <div>
-      <div class="logo">
-       <img src={Logo} alt="logo" />
-      </div>
-      <div class="slogan">
-      <img src={Slogan} alt="logo" />
-      </div>
-      <div>
-      <h2 class="ut"> by UT students for UT students!</h2>
-      </div>
+      <Logo />
+      <Slogan />
+      <Tagline /> 
       <div className="menu">
         {/* Display menu items dynamically here by iterating over the provided menuItems */}
         {menuItems.map((item, index) => (

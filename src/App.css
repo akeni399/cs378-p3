@@ -29,9 +29,14 @@ img {
   height: auto;
 }
 
+.ut {
+  font-weight: bold;
+  font-size: 180%;
+}
+
 h2 {
   font-size: 80%;
-  font-weight: 100px;
+  font-weight: 300px;
   font-family: 'League Spartan', serif;
   text-align: center;
   padding: 10px;
