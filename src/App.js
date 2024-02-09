@@ -10,7 +10,7 @@ import Slogan from './images/slogan.png';
 const menuItems = [
   {
     id: 1,
-    title: 'Gyoza',
+    title: 'hello-test',
     description: 'Japanese dumplings',
     imageName: 'gyoza.png',
     price: 5.99,
