@@ -59,6 +59,18 @@ p {
   color: white;
   border-radius: 5px;
   font-size: 70%;
-  border: none;
+  border: white;
+}
+
+.btn-d {
+  background-color: #B2AC88;
+  color: white;
+  border-radius: 5px;
+  font-size: 90%;
   font: 'League Spartan', serif;
+  border: none;
+}
+
+.subtotal {
+  text-align: center;
 }
